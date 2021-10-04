@@ -98,7 +98,7 @@ wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.FlyingPosition.Position = Vector3.new(10000,50000,10000)
 game.Players.LocalPlayer.Character.HumanoidRootPart.FlyingPosition.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
 wait(5)
-if get_lf() < 7 then
+if get_lf() < 10 then
     Player_Character.Client.Events.Rest:FireServer()
     wait(3)
     if not Player_Character.Config.FullyStunned.Value then Player_Character.Client.Events.Rest:FireServer() end
