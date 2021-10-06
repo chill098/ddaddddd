@@ -9,7 +9,7 @@ local RunService = game:GetService('RunService')
 
 rconsoleclear()
 console_print('*** Script maded by ','@@GREEN@@')
-console_print('Kurumi#1234 ','@@RED@@')
+console_print('Kurumi#1234, but edited by the chill guy ','@@RED@@')
 console_print('***\n','@@GREEN@@')
 console_print('Waiting for spawn player...\n','@@YELLOW@@')
 
